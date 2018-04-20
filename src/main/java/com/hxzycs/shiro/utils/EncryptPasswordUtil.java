@@ -1,4 +1,4 @@
-package com.hxzycs.shiro.util;
+package com.hxzycs.shiro.utils;
 
 import org.apache.shiro.crypto.RandomNumberGenerator;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;

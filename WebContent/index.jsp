@@ -10,5 +10,6 @@
 <body>
 	<a href="javascript:void(0);"><shiro:principal/>,你好1</a>
 	<a href="${pageContext.request.contextPath}/logout">退出</a>
+	<a href="${pageContext.request.contextPath}/sessions/list">查看sessions</a>
 </body>
 </html>
