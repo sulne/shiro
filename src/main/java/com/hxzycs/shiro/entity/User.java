@@ -7,16 +7,16 @@ public class User implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -7331487125497200126L;
-	private int userId;//用户id
+	private Long userId;//用户id
 	private String username;//用户姓名
 	private String password;//密码
 	private String passwordSalt;//加密言
 	
 	
-	public int getUserId() {
+	public Long getUserId() {
 		return userId;
 	}
-	public void setUserId(int userId) {
+	public void setUserId(Long userId) {
 		this.userId = userId;
 	}
 	public String getUserName() {

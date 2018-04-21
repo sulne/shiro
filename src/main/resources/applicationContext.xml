@@ -17,7 +17,7 @@
 	<!-- 数据库连接池 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
-		<property name="url" value="jdbc:oracle:thin:@192.168.1.198:1521:orcl"></property>
+		<property name="url" value="jdbc:oracle:thin:@192.168.1.30:1521:orcl"></property>
 		<property name="username" value="croca"></property>
 		<property name="password" value="123"></property>
 	</bean>
